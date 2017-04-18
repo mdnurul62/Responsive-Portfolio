@@ -1,0 +1,159 @@
+body {
+	background-color: darkgrey;
+	color: #777777;
+	font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+	animation-name: portfolio;
+	animation-duration: 5s;
+}
+
+@keyframes portfolio {
+	0%   {background-color: orange;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    75%  {background-color: black;}
+    100% {background-color: green;}
+}
+
+.header {
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	position: static;
+}
+
+
+ul {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #eee;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	float: right;
+}
+
+li a {
+	display: block;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	background-color: rgb(100,200,200);
+}
+
+li.name {
+	float: left;
+	margin-left: 200px;
+}
+li a.active {
+	background-color: rgb(100,200,200);
+	color: white;
+}
+
+ li a:hover:not(.active) {
+		background-color: #ddd;
+}
+.margin-right {
+	margin-right: 210px;
+}
+
+
+.head {
+	padding-top: 10px;
+	font-size: 32px;
+	padding-bottom: 10px;
+}
+
+p {
+	padding: 20px;
+	text-align: justify;
+	font-family: Helvetica;
+}
+
+.content {
+	max-width: 600px;
+	background-color: #ffffff;
+	margin-right: 20px;
+	margin-bottom: 40px;
+	margin-left: 200px;
+	margin-top: 40px;
+	padding: 20px;
+	border: 1px solid green;
+}
+
+img#self {
+	float: left;
+	margin-right: 20px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+img#meow {
+	float: right;
+	margin-left: 20px;
+	border: 1px solid black;
+	border-radius: 50%;
+}
+	
+.side {
+	background-color: #ffffff;
+	margin-top: 40px;
+	max-width: 228px;
+	border: 1px solid green;
+	padding: 20px;
+}
+
+.content, .side {
+	float: left;
+
+}
+
+
+
+#bg-button {
+	background-color: #ffffff;
+}
+
+button:hover {
+	display: block;
+	background-color: #888;
+}
+
+.icon {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+footer {
+	background-color: #666666;
+	color: white;
+	clear: both; 
+}
+
+#foot {
+	text-align: center;
+	padding: 20px;
+}
+
+@media screen and (max-width: 980px) {
+	body {
+		background-color: lightblue; 
+	}
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		background-color: lightgreen; 
+	}
+}
+@media  screen and (max-width: 640px) {
+	body {
+		background-color: black;
+	}
+	
+}
+
+
+
