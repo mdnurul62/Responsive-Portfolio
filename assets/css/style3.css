@@ -34,7 +34,7 @@ li a {
 
 li.name {
 	float: left;
-	margin-left: 220px;
+	margin-left: 200px;
 }
 li a.active {
 	background-color: rgb(100,200,200);
@@ -45,12 +45,12 @@ li a.active {
 		background-color: #ddd;
 }
 .margin-right {
-	margin-right: 200px;
+	margin-right: 180px;
 }
 
 .head {
 	padding-top: 10px;
-	font-size: 32px;
+	font-size: 24px;
 	padding-bottom: 10px;
 }
 
